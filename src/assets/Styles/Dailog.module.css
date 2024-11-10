@@ -1,0 +1,133 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+.modal {
+  border: 1px solid rgba(17, 17, 17, 1);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  padding: 2.4rem;
+  width: 26.67%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.blogImage {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.category {
+  align-self: flex-start;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+
+  background-color: #f4d04e;
+  border-radius: 3.75px;
+  color: #111111;
+  font-family: Figtree;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+}
+
+.publishmentDate {
+  color: #111111;
+  font-family: Figtree;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.3125rem;
+}
+
+.title {
+  color: #111111;
+  font-family: Figtree;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #f4d04e;
+  curser: pointer;
+}
+
+.description {
+  color: #6b6b6b;
+  font-family: Figtree;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.userPic {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.authorName {
+  color: #111111;
+  font-family: Figtree;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+}
+
+/* Media query for 775px screen: */
+@media (max-width: 48.5rem) {
+  .modal {
+    width: 33%;
+  }
+
+  .category,
+  .publishmentDate {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
+
+/* Media query for 540px screen: */
+@media (max-width: 33.75rem) {
+  .modal {
+    width: 60%;
+  }
+}
+/* Media query for 323px screen: */
+@media (max-width: 20.2rem) {
+  .modal {
+    width: 73%;
+  }
+}
