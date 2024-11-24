@@ -10,7 +10,7 @@
   border-radius: 20px;
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
   padding: 2.4rem;
-  width: 26.67%;
+  width: 26.67vw;
 }
 
 .container {
@@ -39,7 +39,7 @@
   padding: 0.5rem 1.5rem;
 
   background-color: #f4d04e;
-  border-radius: 3.75px;
+  border-radius: 4px;
   color: #111111;
   font-family: Figtree;
   font-size: 1.4rem;
@@ -96,10 +96,23 @@
   line-height: 2.1rem;
 }
 
+/* Media query for 1165px screen: */
+@media (max-width: 72.81rem) {
+  .modal {
+    width: 33vw;
+  }
+}
+
+/* Media query for 942px screen: */
+@media (max-width: 58.875rem) {
+  .modal {
+    width: 44vw;
+  }
+}
+
 /* Media query for 775px screen: */
 @media (max-width: 48.5rem) {
   .modal {
-    width: 33%;
   }
 
   .category,
@@ -119,15 +132,16 @@
   }
 }
 
-/* Media query for 540px screen: */
-@media (max-width: 33.75rem) {
+/* Media query for 576px screen: */
+@media (max-width: 36rem) {
   .modal {
-    width: 60%;
+    width: 76vw;
   }
 }
-/* Media query for 323px screen: */
-@media (max-width: 20.2rem) {
+
+/* Media query for 375px screen: */
+@media (max-width: 23.44rem) {
   .modal {
-    width: 73%;
+    width: 87.2vw;
   }
 }

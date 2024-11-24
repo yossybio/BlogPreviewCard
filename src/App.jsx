@@ -1,10 +1,10 @@
-import Dialog from "./components/dialog";
+import BlogCard from "./components/BlogCard";
 import "./assets/Styles/App.css";
 
 function App() {
   return (
     <>
-      <Dialog />
+      <BlogCard />
     </>
   );
 }

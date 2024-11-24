@@ -1,14 +1,13 @@
-// import React from "react";
-import StyleSheet from "../assets/Styles/Dailog.module.css";
-import DialogImg from "../assets/images/illustration-article.svg";
+import StyleSheet from "../assets/Styles/BlogCard.module.css";
+import CardImg from "../assets/images/illustration-article.svg";
 import UserImg from "../assets/images/image-avatar.webp";
 
-export default function Dialog() {
+export default function BlogCard() {
   return (
     <dialog open className={`${StyleSheet.center} ${StyleSheet.modal}`}>
       <div className={StyleSheet.container}>
         <img
-          src={DialogImg}
+          src={CardImg}
           className={StyleSheet.blogImage}
           alt="Image with HTML tag sign"
         />
